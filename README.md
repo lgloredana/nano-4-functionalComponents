@@ -6,10 +6,9 @@
 
 Stateless Functional Component
 
-Given info about profiles, users and movies show result as follow:
+Given info about profiles, users and movies :
 
-
-######profiles
+######profiles  
 `const profiles = [
    {
      id: 1,
@@ -43,7 +42,9 @@ Given info about profiles, users and movies show result as follow:
    },
  ];
 `
-######users
+
+
+######users    
 const users = {
   1: {
     id: 1,
@@ -76,7 +77,9 @@ const users = {
     userName: 'user123',
   },
 };
-######movies
+
+
+######movies  
 `const movies = {
    1: {
      id: 1,
@@ -99,6 +102,8 @@ const users = {
      name: 'Get Out',
    },
  };`
+
+Show result as follow:
 
 `[Moview name 1]`   
  Liked by:  
