@@ -8,7 +8,7 @@ Stateless Functional Component
 
 Given info about profiles, users and movies :
 
-######profiles  
+#### profiles  
 `const profiles = [
    {
      id: 1,
@@ -44,7 +44,7 @@ Given info about profiles, users and movies :
 `
 
 
-######users    
+#### users    
 const users = {
   1: {
     id: 1,
@@ -79,7 +79,7 @@ const users = {
 };
 
 
-######movies  
+#### movies  
 `const movies = {
    1: {
      id: 1,
