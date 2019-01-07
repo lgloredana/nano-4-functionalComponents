@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import MovieCard from './MovieCard';
 
 const MovieCardsList = props => {
@@ -33,8 +33,7 @@ const MovieCardsList = props => {
     /*
     Return JSX
     */
-    return <ul>{movieCards}</ul>;
-  }
-}
+    return (<ul>{movieCards}</ul>)
+};
 
 export default MovieCardsList;
